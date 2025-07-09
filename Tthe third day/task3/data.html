@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            background-color: rgb(1, 183, 116);
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #date{
+            padding: 20px;
+            border: none;
+            border-radius: 10px;
+            width: 400px;
+            box-shadow: 0px 4px 4px rgb(237, 150, 84); 
+
+        }
+        #btn{
+            position: absolute;
+            margin-top: 140px;
+            margin-left: 340px;
+            width: 100px;
+            padding: 15px;
+            font-size: 14px;
+            border: none;
+            border-radius: 20px;
+            background-color: rgb(174, 208, 51);
+            box-shadow: 0px 11px 6px rgb(0,0,0.15); 
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <form id="myform">
+            <input id="date" placeholder="Enter the date, e.g., 04-09-2025">
+        </form>
+        <button id="btn">Show</button>
+    </div>
+    
+    <script src="/task3/main.js"></script>
+</body>
+</html>
